@@ -45,11 +45,14 @@ public class NewsViewModelTest {
     public void setup() {
         mRepository = mock(NewsRepository.class);
         mViewModel = new NewsViewModel(mRepository);
+        mViewModel.init();
     }
 
     @Test
     public void testNull() {
         assertThat(mViewModel.getArticleList(), notNullValue());
+        verify(mRepository, never()).getArticleList(anyInt());
+        mViewModel.setPeriod(Constants.DEFAULT_NEWS_PERIOD);
         verify(mRepository, never()).getArticleList(anyInt());
     }
 
@@ -77,8 +80,8 @@ public class NewsViewModelTest {
         mViewModel.setPeriod(Constants.NEWS_PERIOD_1_DAY);
         mViewModel.setPeriod(Constants.NEWS_PERIOD_30_DAYS);
 
-        verify(mRepository, times(2)).getArticleList(period.capture());
-        assertThat(period.getAllValues(), is(Arrays.asList(Constants.NEWS_PERIOD_1_DAY, Constants.NEWS_PERIOD_30_DAYS)));
+        verify(mRepository, times(3)).getArticleList(period.capture());
+        assertThat(period.getAllValues(), is(Arrays.asList(Constants.DEFAULT_NEWS_PERIOD, Constants.NEWS_PERIOD_1_DAY, Constants.NEWS_PERIOD_30_DAYS)));
     }
 
     @Test
@@ -129,7 +132,7 @@ public class NewsViewModelTest {
     public void dontRefreshOnSameData() {
         Observer<Integer> observer = mock(Observer.class);
         mViewModel.mPeriod.observeForever(observer);
-        verifyNoMoreInteractions(observer);
+        verify(observer, times(1)).onChanged(anyInt());
         mViewModel.setPeriod(Constants.DEFAULT_NEWS_PERIOD);
         verify(observer).onChanged(Constants.DEFAULT_NEWS_PERIOD);
         reset(observer);

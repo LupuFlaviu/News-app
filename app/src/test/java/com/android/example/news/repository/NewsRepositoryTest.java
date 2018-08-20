@@ -22,6 +22,7 @@ import org.junit.runners.JUnit4;
 
 import static com.android.example.news.util.ApiUtil.successCall;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
@@ -48,7 +49,7 @@ public class NewsRepositoryTest {
         when(mService.getArticleList(Constants.ALL_SECTIONS, Constants.DEFAULT_NEWS_PERIOD, BuildConfig.ApiKey)).thenReturn(call);
 
         LiveData<Resource<NewsResponse>> data = mRepository.getArticleList(Constants.DEFAULT_NEWS_PERIOD);
-        verifyNoMoreInteractions(mService);
+        verify(mService, times(1)).getArticleList(Constants.ALL_SECTIONS, Constants.DEFAULT_NEWS_PERIOD, BuildConfig.ApiKey);
 
         Observer observer = mock(Observer.class);
         data.observeForever(observer);

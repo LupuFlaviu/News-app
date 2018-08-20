@@ -21,6 +21,7 @@ import android.arch.core.executor.testing.InstantTaskExecutorRule;
 import com.android.example.news.BuildConfig;
 import com.android.example.news.api.model.NewsResponse;
 import com.android.example.news.utils.Constants;
+import com.android.example.news.utils.LiveDataCallAdapterFactory;
 
 import org.junit.After;
 import org.junit.Before;
@@ -63,6 +64,7 @@ public class RetrofitServiceTest {
         mService = new Retrofit.Builder()
                 .baseUrl(mockWebServer.url("/"))
                 .addConverterFactory(GsonConverterFactory.create())
+                .addCallAdapterFactory(new LiveDataCallAdapterFactory())
                 .build()
                 .create(RetrofitService.class);
     }
@@ -83,7 +85,7 @@ public class RetrofitServiceTest {
         assertThat(newsResponse, notNullValue());
         assertThat(newsResponse.getArticleList().get(0).getTitle(), is("Elon Musk Details ‘Excruciating’ Personal Toll of Tesla Turmoil"));
         assertThat(newsResponse.getArticleList().get(1).getMedia().get(0).getMediaMetaData().get(7).getUrl(), is("https://static01.nyt.com/images/2018/08/14/nyregion/14nyu/00nyu-thumbLarge.jpg"));
-        assertThat(newsResponse.getArticleList().get(2).getUrl(), is("https://www.nytimes.com/2018/08/18/us/politics/don-mcgahn-mueller-investigation.html"));
+        assertThat(newsResponse.getArticleList().get(2).getUrl(), is("https://www.nytimes.com/2018/08/14/us/catholic-church-sex-abuse-pennsylvania.html"));
     }
 
     private void enqueueResponse(String fileName) throws IOException {

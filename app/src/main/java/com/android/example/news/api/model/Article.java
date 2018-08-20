@@ -22,8 +22,9 @@ public class Article implements Serializable {
     @SerializedName(value = "media")
     private List<Media> mediaList;
 
-    public Article(String title) {
+    public Article(String title, List<Media> media) {
         this.title = title;
+        this.mediaList = media;
     }
 
     public String getUrl() {

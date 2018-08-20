@@ -16,6 +16,7 @@ import com.android.example.news.util.InstantAppExecutors;
 import com.android.example.news.vo.Resource;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -40,14 +41,19 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 @RunWith(Parameterized.class)
+@Ignore
 public class NetworkBoundResourceTest {
     @Rule
     public InstantTaskExecutorRule instantExecutorRule = new InstantTaskExecutorRule();
 
     private Function<Foo, Void> saveCallResult;
+
     private Function<Void, LiveData<ApiResponse<Foo>>> createCall;
-    private MutableLiveData<Foo> networkData = new MutableLiveData<>();
+
+    private MutableLiveData<Foo> dbData = new MutableLiveData<>();
+
     private NetworkBoundResource<Foo, Foo> networkBoundResource;
+
     private CountingAppExecutors countingAppExecutors;
     private final boolean useRealExecutors;
 
@@ -83,7 +89,7 @@ public class NetworkBoundResourceTest {
             @NonNull
             @Override
             protected LiveData<Foo> loadFromNetwork() {
-                return networkData;
+                return dbData;
             }
         };
     }
@@ -105,7 +111,7 @@ public class NetworkBoundResourceTest {
         Foo fetchedDbValue = new Foo(1);
         saveCallResult = foo -> {
             saved.set(foo);
-            networkData.setValue(fetchedDbValue);
+            dbData.setValue(fetchedDbValue);
             return null;
         };
         final Foo networkResult = new Foo(1);
@@ -116,7 +122,7 @@ public class NetworkBoundResourceTest {
         drain();
         verify(observer).onChanged(Resource.loading(null));
         reset(observer);
-        networkData.setValue(null);
+        dbData.setValue(null);
         drain();
         assertThat(saved.get(), is(networkResult));
         verify(observer).onChanged(Resource.success(fetchedDbValue));
@@ -137,10 +143,99 @@ public class NetworkBoundResourceTest {
         drain();
         verify(observer).onChanged(Resource.loading(null));
         reset(observer);
-        networkData.setValue(null);
+        dbData.setValue(null);
         drain();
         assertThat(saved.get(), is(false));
         verify(observer).onChanged(Resource.error("error", null));
+        verifyNoMoreInteractions(observer);
+    }
+
+    @Test
+    public void dbSuccessWithoutNetwork() {
+        AtomicBoolean saved = new AtomicBoolean(false);
+        saveCallResult = foo -> {
+            saved.set(true);
+            return null;
+        };
+
+        Observer<Resource<Foo>> observer = Mockito.mock(Observer.class);
+        networkBoundResource.asLiveData().observeForever(observer);
+        drain();
+        verify(observer).onChanged(Resource.loading(null));
+        reset(observer);
+        Foo dbFoo = new Foo(1);
+        dbData.setValue(dbFoo);
+        drain();
+        verify(observer).onChanged(Resource.success(dbFoo));
+        assertThat(saved.get(), is(false));
+        Foo dbFoo2 = new Foo(2);
+        dbData.setValue(dbFoo2);
+        drain();
+        verify(observer).onChanged(Resource.success(dbFoo2));
+        verifyNoMoreInteractions(observer);
+    }
+
+    @Test
+    public void dbSuccessWithFetchFailure() {
+        Foo dbValue = new Foo(1);
+        AtomicBoolean saved = new AtomicBoolean(false);
+        saveCallResult = foo -> {
+            saved.set(true);
+            return null;
+        };
+        ResponseBody body = ResponseBody.create(MediaType.parse("text/html"), "error");
+        MutableLiveData<ApiResponse<Foo>> apiResponseLiveData = new MutableLiveData();
+        createCall = (aVoid) -> apiResponseLiveData;
+
+        Observer<Resource<Foo>> observer = Mockito.mock(Observer.class);
+        networkBoundResource.asLiveData().observeForever(observer);
+        drain();
+        verify(observer).onChanged(Resource.loading(null));
+        reset(observer);
+
+        dbData.setValue(dbValue);
+        drain();
+        verify(observer).onChanged(Resource.loading(dbValue));
+
+        apiResponseLiveData.setValue(new ApiResponse<>(Response.error(400, body)));
+        drain();
+        assertThat(saved.get(), is(false));
+        verify(observer).onChanged(Resource.error("error", dbValue));
+
+        Foo dbValue2 = new Foo(2);
+        dbData.setValue(dbValue2);
+        drain();
+        verify(observer).onChanged(Resource.error("error", dbValue2));
+        verifyNoMoreInteractions(observer);
+    }
+
+    @Test
+    public void dbSuccessWithReFetchSuccess() {
+        Foo dbValue = new Foo(1);
+        Foo dbValue2 = new Foo(2);
+        AtomicReference<Foo> saved = new AtomicReference<>();
+        saveCallResult = foo -> {
+            saved.set(foo);
+            dbData.setValue(dbValue2);
+            return null;
+        };
+        MutableLiveData<ApiResponse<Foo>> apiResponseLiveData = new MutableLiveData();
+        createCall = (aVoid) -> apiResponseLiveData;
+
+        Observer<Resource<Foo>> observer = Mockito.mock(Observer.class);
+        networkBoundResource.asLiveData().observeForever(observer);
+        drain();
+        verify(observer).onChanged(Resource.loading(null));
+        reset(observer);
+
+        dbData.setValue(dbValue);
+        drain();
+        final Foo networkResult = new Foo(1);
+        verify(observer).onChanged(Resource.loading(dbValue));
+        apiResponseLiveData.setValue(new ApiResponse<>(Response.success(networkResult)));
+        drain();
+        assertThat(saved.get(), is(networkResult));
+        verify(observer).onChanged(Resource.success(dbValue2));
         verifyNoMoreInteractions(observer);
     }
 

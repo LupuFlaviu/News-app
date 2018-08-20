@@ -12,6 +12,10 @@ public class MediaMetaData implements Serializable {
     @SerializedName(value = "url")
     private String url;
 
+    public MediaMetaData(String url) {
+        this.url = url;
+    }
+
     public String getUrl() {
         return url;
     }

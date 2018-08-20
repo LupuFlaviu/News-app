@@ -28,28 +28,6 @@ public class NewsRepository {
     private MutableLiveData<String> mErrorMessage = new MutableLiveData<>();
     private final AppExecutors mAppExecutors;
 
-   /* private Callback<NewsResponse> mArticleListCallback = new Callback<NewsResponse>() {
-        @Override
-        public void onResponse(@NonNull Call<NewsResponse> call, @NonNull Response<NewsResponse> response) {
-            // if there is some kind of error, show it
-            ResponseBody responseBody = response.errorBody();
-            if (responseBody != null) {
-                try {
-                    mErrorMessage.setValue(responseBody.string());
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            } else {
-                mArticleList.setValue(Resource.success(response.body()));
-            }
-        }
-
-        @Override
-        public void onFailure(@NonNull Call<NewsResponse> call, @NonNull Throwable t) {
-            mErrorMessage.setValue(t.getMessage());
-        }
-    };*/
-
     @Inject
     public NewsRepository(RetrofitService retrofitService, AppExecutors appExecutors) {
         mRetrofitService = retrofitService;

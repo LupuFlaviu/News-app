@@ -13,6 +13,10 @@ public class Media implements Serializable {
     @SerializedName(value = "media-metadata")
     private List<MediaMetaData> mediaMetaData;
 
+    public Media(List<MediaMetaData> mediaMetaData) {
+        this.mediaMetaData = mediaMetaData;
+    }
+
     public List<MediaMetaData> getMediaMetaData() {
         return mediaMetaData;
     }

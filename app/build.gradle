@@ -103,6 +103,9 @@ dependencies {
     // Mock web server
     testImplementation "com.squareup.okhttp3:mockwebserver:$okhttpVersion"
 
+    // Mockito
+    testImplementation 'org.mockito:mockito-core:2.21.0'
+
     // Espresso
     androidTestImplementation "com.android.support.test:runner:$testSupportVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
@@ -110,9 +113,7 @@ dependencies {
     androidTestImplementation "com.android.support.test:rules:$testSupportVersion"
 
     // Mockito
-    androidTestImplementation('org.mockito:mockito-core:2.21.0') {
-        exclude group: 'net.bytebuddy'
-    }
+    androidTestImplementation 'org.mockito:mockito-android:2.8.47'
 
     // architecture components
     androidTestImplementation "android.arch.core:core-testing:$archVersion"

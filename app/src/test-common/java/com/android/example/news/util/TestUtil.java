@@ -17,6 +17,8 @@
 package com.android.example.news.util;
 
 import com.android.example.news.api.model.Article;
+import com.android.example.news.api.model.Media;
+import com.android.example.news.api.model.MediaMetaData;
 import com.android.example.news.api.model.NewsResponse;
 
 import java.util.ArrayList;
@@ -27,12 +29,22 @@ public class TestUtil {
     public static List<Article> createArticleList(String... titles) {
         List<Article> articleList = new ArrayList<>();
         for (String title : titles) {
-            articleList.add(new Article(title));
+            articleList.add(new Article(title, createMediaList()));
         }
         return articleList;
     }
 
     public static NewsResponse createNewsResponse(String... titles) {
         return new NewsResponse(createArticleList(titles));
+    }
+
+    public static List<Media> createMediaList() {
+        List<MediaMetaData> mediaMetaDataList = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            mediaMetaDataList.add(new MediaMetaData("https://static01.nyt.com/images/2018/08/14/nyregion/14nyu/00nyu-thumbLarge.jpg"));
+        }
+        List<Media> mediaList = new ArrayList<>();
+        mediaList.add(new Media(mediaMetaDataList));
+        return mediaList;
     }
 }
