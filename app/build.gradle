@@ -1,0 +1,157 @@
+apply plugin: 'com.android.application'
+apply plugin: 'jacoco'
+apply from: '../android-sonarqube.gradle'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.android.example.news"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "com.android.example.news.util.NewsTestRunner"
+    }
+    buildTypes {
+        debug {
+            testCoverageEnabled !project.hasProperty('android.injected.invoked.from.ide')
+            buildConfigField 'String', "ApiKey", NewsApp_ApiKey
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', "ApiKey", NewsApp_ApiKey
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        androidTest.java.srcDirs += "src/test-common/java"
+        test.java.srcDirs += "src/test-common/java"
+    }
+    lintOptions {
+        lintConfig rootProject.file('lint.xml')
+    }
+}
+
+jacoco {
+    toolVersion = "0.8.1"
+    reportsDir = file("$buildDir/customJacocoReportDir")
+}
+
+ext {
+    daggerVersion = '2.13'
+    daggerAndroidVersion = '2.11'
+    supportLibraryVersion = '28.0.0-rc01'
+    retrofitVersion = '2.4.0'
+    archVersion = '1.1.1'
+    testSupportVersion = '1.0.2'
+    espressoVersion = '3.0.2'
+    okhttpVersion = '3.11.0'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    // support library
+    implementation "com.android.support:appcompat-v7:$supportLibraryVersion"
+    implementation "com.android.support:design:$supportLibraryVersion"
+    implementation "com.android.support:recyclerview-v7:$supportLibraryVersion"
+    implementation 'com.android.support.constraint:constraint-layout:2.0.0-alpha2'
+
+    // architecture components
+    implementation "android.arch.lifecycle:extensions:$archVersion"
+
+    //dagger
+    implementation "com.google.dagger:dagger:$daggerVersion"
+    annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
+    implementation "com.google.dagger:dagger-android:$daggerVersion"
+    annotationProcessor "com.google.dagger:dagger-android-processor:$daggerAndroidVersion"
+    implementation("com.google.dagger:dagger-android-support:$daggerAndroidVersion") {
+        exclude group: 'com.android.support'
+    }
+
+    // retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+
+    // CircleImageView
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    // Picasso
+    implementation('com.squareup.picasso:picasso:2.71828') {
+        exclude group: 'com.android.support'
+    }
+
+    // JUnit
+    testImplementation 'junit:junit:4.12'
+
+    // architecture components
+    testImplementation("android.arch.core:core-testing:$archVersion") {
+        exclude group: 'com.android.support', module: 'support-compat'
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'support-core-utils'
+    }
+
+    // Mock web server
+    testImplementation "com.squareup.okhttp3:mockwebserver:$okhttpVersion"
+
+    // Espresso
+    androidTestImplementation "com.android.support.test:runner:$testSupportVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-intents:$espressoVersion"
+    androidTestImplementation "com.android.support.test:rules:$testSupportVersion"
+
+    // Mockito
+    androidTestImplementation('org.mockito:mockito-core:2.21.0') {
+        exclude group: 'net.bytebuddy'
+    }
+
+    // architecture components
+    androidTestImplementation "android.arch.core:core-testing:$archVersion"
+
+    task cleanInstallDebug(type: GradleBuild) {
+        tasks = ['clean', 'assembleDebug' , 'installDebug']
+    }
+
+    task checkLint(type: GradleBuild) {
+        tasks = ['clean', 'lint']
+    }
+
+    task fullCoverageReport(type: JacocoReport) {
+        dependsOn 'createDebugCoverageReport'
+        dependsOn 'testDebugUnitTest'
+        reports {
+            xml.enabled = true
+            html {
+                enabled = true
+                destination file("$project.rootDir/build/reports/javacoco/$project.name")
+            }
+        }
+
+        def fileFilter = ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*',
+                          '**/*Test*.*', 'android/**/*.*',
+                          '**/*_MembersInjector.class',
+                          '**/Dagger*Component.class',
+                          '**/Dagger*Component$Builder.class',
+                          '**/*_*Factory.class',
+                          '**/*ComponentImpl.class',
+                          '**/*SubComponentBuilder.class']
+        def debugTree = fileTree(dir: "${buildDir}/intermediates/classes/debug", excludes: fileFilter)
+        def mainSrc = "${project.projectDir}/src/main/java"
+
+        sourceDirectories = files([mainSrc])
+        classDirectories = files([debugTree])
+        executionData = fileTree(dir: "$buildDir", includes: [
+                "jacoco/testDebugUnitTest.exec",
+                "outputs/code-coverage/connected/*coverage.ec"
+        ])
+    }
+}

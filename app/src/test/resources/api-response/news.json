@@ -1,0 +1,1984 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2018 The New York Times Company.  All Rights Reserved.",
+  "num_results": 1680,
+  "results": [
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/16\/business\/elon-musk-interview-tesla.html",
+      "adx_keywords": "Musk, Elon;Tesla Motors Inc;Electric and Hybrid Vehicles;Automobiles;Boards of Directors;Twitter;Stocks and Bonds",
+      "column": null,
+      "section": "Business Day",
+      "byline": "By DAVID GELLES, JAMES B. STEWART, JESSICA SILVER-GREENBERG and KATE KELLY",
+      "type": "Article",
+      "title": "Elon Musk Details \u2018Excruciating\u2019 Personal Toll of Tesla Turmoil",
+      "abstract": "After setting off a furor that unsettled the markets and his own board, the Tesla chief talks about the pressure he is under and his struggle to cope.",
+      "published_date": "2018-08-16",
+      "source": "The New York Times",
+      "id": 100000006059370,
+      "asset_id": 100000006059370,
+      "views": 1,
+      "des_facet": [
+        "ELECTRIC AND HYBRID VEHICLES",
+        "AUTOMOBILES",
+        "STOCKS AND BONDS"
+      ],
+      "org_facet": [
+        "TESLA MOTORS INC",
+        "BOARDS OF DIRECTORS",
+        "TWITTER"
+      ],
+      "per_facet": [
+        "MUSK, ELON"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Elon Musk, the chairman and chief executive of the electric-car maker Tesla. \u201cThis past year has been the most difficult and painful year of my career,\u201d he said.",
+          "copyright": "Noah Berger\/Bloomberg",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-articleInline.jpg",
+              "format": "Normal",
+              "height": 133,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 715,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1429,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/business\/17MUSK1\/17MU-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/13\/nyregion\/sexual-harassment-nyu-female-professor.html",
+      "adx_keywords": "Ronell, Avital;Reitman, Nimrod;Sexual Harassment;#MeToo Movement;New York University;Women's Rights;Women and Girls;Colleges and Universities;Title IX (Gender Discrimination Legislation);Butler, Judith;Suits and Litigation (Civil)",
+      "column": null,
+      "section": "New York",
+      "byline": "By ZOE GREENBERG",
+      "type": "Article",
+      "title": "What Happens to #MeToo When a Feminist Is the Accused?",
+      "abstract": "Avital Ronell, a superstar professor, was found by N.Y.U. to have sexually harassed a male grad student. But his charges have met disbelief from some feminist scholars.",
+      "published_date": "2018-08-13",
+      "source": "The New York Times",
+      "id": 100000006044436,
+      "asset_id": 100000006044436,
+      "views": 2,
+      "des_facet": [
+        "SEXUAL HARASSMENT",
+        "#METOO MOVEMENT",
+        "COLLEGES AND UNIVERSITIES"
+      ],
+      "org_facet": [
+        "NEW YORK UNIVERSITY",
+        "WOMEN'S RIGHTS",
+        "WOMEN AND GIRLS",
+        "TITLE IX (GENDER DISCRIMINATION LEGISLATION)",
+        "SUITS AND LITIGATION (CIVIL)"
+      ],
+      "per_facet": [
+        "RONELL, AVITAL",
+        "REITMAN, NIMROD",
+        "BUTLER, JUDITH"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nimrod Reitman accused his former N.Y.U. graduate school adviser, Avital Ronell, of sexually harassing him, and the university found her responsible. But some leading feminist scholars have supported her in ways that echo the defenses of male harassers.",
+          "copyright": "Caitlin Ochs for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/00nyu-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/00nyu-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/merlin_141738555_59266237-94f3-4beb-a782-d145022bd053-articleInline.jpg",
+              "format": "Normal",
+              "height": 143,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/14nyu-sfSpan-v2.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/merlin_141738555_59266237-94f3-4beb-a782-d145022bd053-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 768,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/merlin_141738555_59266237-94f3-4beb-a782-d145022bd053-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1536,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/00nyu-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/00nyu-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/14nyu-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/nyregion\/14nyu\/14nyu-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/14\/us\/catholic-church-sex-abuse-pennsylvania.html",
+      "adx_keywords": "Sex Crimes;Child Abuse and Neglect;Priests;Roman Catholic Church;Pennsylvania;Suits and Litigation (Civil);Statutes of Limitations",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By LAURIE GOODSTEIN and SHARON OTTERMAN",
+      "type": "Article",
+      "title": "Catholic Priests Abused 1,000 Children in Pennsylvania, Report Says",
+      "abstract": "The grand jury report is the government\u2019s broadest look yet in the United States at child sexual abuse in the church.",
+      "published_date": "2018-08-14",
+      "source": "The New York Times",
+      "id": 100000006050686,
+      "asset_id": 100000006050686,
+      "views": 3,
+      "des_facet": [
+        "SEX CRIMES",
+        "CHILD ABUSE AND NEGLECT",
+        "PRIESTS"
+      ],
+      "org_facet": [
+        "ROMAN CATHOLIC CHURCH",
+        "SUITS AND LITIGATION (CIVIL)",
+        "STATUTES OF LIMITATIONS"
+      ],
+      "per_facet": "",
+      "geo_facet": [
+        "PENNSYLVANIA"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Victims of clerical sex abuse and their relatives reacted as Attorney General Josh Shapiro discussed the grand jury report at a news conference in Harrisburg.",
+          "copyright": "Matt Rourke\/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/15pa-church01-alt-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/15pa-church01-alt-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/15pa-church01-alt-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/merlin_142362708_8764afea-b230-46d0-b0ad-00bf71f98932-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/merlin_142362708_8764afea-b230-46d0-b0ad-00bf71f98932-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/merlin_142362708_8764afea-b230-46d0-b0ad-00bf71f98932-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/15pa-church01-alt-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/15pa-church01-alt-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/merlin_142362708_8764afea-b230-46d0-b0ad-00bf71f98932-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15pa-church-print-sub\/merlin_142362708_8764afea-b230-46d0-b0ad-00bf71f98932-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/18\/us\/politics\/don-mcgahn-mueller-investigation.html",
+      "adx_keywords": "McGahn, Donald F II;Trump, Donald J;Mueller, Robert S III;Special Prosecutors (Independent Counsel);Russian Interference in 2016 US Elections and Ties to Trump Associates;United States Politics and Government;Presidential Election of 2016;Executive Privilege, Doctrine of;Legal Profession;Witnesses;Justice Department;Burck, William A",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By MICHAEL S. SCHMIDT and MAGGIE HABERMAN",
+      "type": "Article",
+      "title": "White House Counsel, Don McGahn, Has Cooperated Extensively in Mueller Inquiry",
+      "abstract": "The White House counsel, Donald F. McGahn II, was a witness to key episodes being scrutinized in the case. His cooperation with investigators is unusual.",
+      "published_date": "2018-08-18",
+      "source": "The New York Times",
+      "id": 100000006058021,
+      "asset_id": 100000006058021,
+      "views": 4,
+      "des_facet": [
+        "SPECIAL PROSECUTORS (INDEPENDENT COUNSEL)",
+        "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "PRESIDENTIAL ELECTION OF 2016",
+        "EXECUTIVE PRIVILEGE, DOCTRINE OF",
+        "LEGAL PROFESSION",
+        "WITNESSES",
+        "JUSTICE DEPARTMENT"
+      ],
+      "per_facet": [
+        "MCGAHN, DONALD F II",
+        "TRUMP, DONALD J",
+        "MUELLER, ROBERT S III",
+        "BURCK, WILLIAM A"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Mr. McGahn\u2019s relationship with the president soured as Mr. Trump blamed him for a number of fraught moments in his first months in office, including the existence of the special counsel\u2019s inquiry.",
+          "copyright": "Doug Mills\/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-articleInline.jpg",
+              "format": "Normal",
+              "height": 130,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-sfSpan.jpg",
+              "format": "Large",
+              "height": 264,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 702,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1403,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/19\/us\/19dc-mcghan-alpha\/19dc-mcghan-alpha-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/16\/opinion\/john-brennan-trump-russia-collusion-security-clearance.html",
+      "adx_keywords": "Russian Interference in 2016 US Elections and Ties to Trump Associates;Presidential Election of 2016;Politics and Government;Espionage and Intelligence Services;Central Intelligence Agency;Federal Bureau of Investigation;Russia;Trump, Donald J;Brennan, John O",
+      "column": null,
+      "section": "Opinion",
+      "byline": "By JOHN O. BRENNAN",
+      "type": "Article",
+      "title": "John Brennan: President Trump\u2019s Claims of No Collusion Are Hogwash",
+      "abstract": "That\u2019s why the president revoked my security clearance: to try to silence anyone who would dare challenge him.",
+      "published_date": "2018-08-16",
+      "source": "The New York Times",
+      "id": 100000006057469,
+      "asset_id": 100000006057469,
+      "views": 5,
+      "des_facet": [
+        "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+        "PRESIDENTIAL ELECTION OF 2016",
+        "POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "ESPIONAGE AND INTELLIGENCE SERVICES",
+        "CENTRAL INTELLIGENCE AGENCY",
+        "FEDERAL BUREAU OF INVESTIGATION"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J",
+        "BRENNAN, JOHN O"
+      ],
+      "geo_facet": [
+        "RUSSIA"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Al Drago\/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/08162018ambriefing-euro-slide-B98Z-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/08162018ambriefing-euro-slide-B98Z-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/16Brennan-Op-Ed-articleInline.jpg",
+              "format": "Normal",
+              "height": 125,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/16Brennan-Op-Ed-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/16Brennan-Op-Ed-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 673,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/16Brennan-Op-Ed-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1347,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/08162018ambriefing-euro-slide-B98Z-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/08162018ambriefing-euro-slide-B98Z-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/16Brennan-Op-Ed-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/pageoneplus\/16Brennan-Op-Ed\/16Brennan-Op-Ed-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/16\/obituaries\/aretha-franklin-dead.html",
+      "adx_keywords": "Franklin, Aretha;Deaths (Obituaries);Gospel Music;Pop and Rock Music;Rhythm and Blues",
+      "column": "",
+      "section": "Obituaries",
+      "byline": "By JON PARELES",
+      "type": "Article",
+      "title": "Aretha Franklin, Indomitable \u2018Queen of Soul,\u2019 Dies at 76",
+      "abstract": "With hits like \u201cRespect\u201d and \u201cChain of Fools,\u201d she defined a female archetype: sensual and strong, long-suffering but ultimately indomitable.",
+      "published_date": "2018-08-16",
+      "source": "The New York Times",
+      "id": 100000003691546,
+      "asset_id": 100000003691546,
+      "views": 6,
+      "des_facet": [
+        "GOSPEL MUSIC"
+      ],
+      "org_facet": [
+        "DEATHS (OBITUARIES)",
+        "POP AND ROCK MUSIC"
+      ],
+      "per_facet": [
+        "FRANKLIN, ARETHA"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ms. Franklin backstage at the Apollo in 1971.",
+          "copyright": "Tyrone Dukes\/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-articleInline.jpg",
+              "format": "Normal",
+              "height": 225,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 1024,
+              "width": 864
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 2048,
+              "width": 1727
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2017\/09\/10\/arts\/00Franklin-obit5\/00Franklin-obit5-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/interactive\/2018\/08\/15\/opinion\/editorials\/free-press-local-journalism-news-donald-trump.html",
+      "adx_keywords": "Freedom of the Press;News and News Media;Trump, Donald J;United States Politics and Government",
+      "column": "",
+      "section": "Opinion",
+      "byline": "By THE EDITORIAL BOARD",
+      "type": "Interactive",
+      "title": "A Free Press Needs You",
+      "abstract": "Don\u2019t just take it from us. Scores of publications from around the country are raising their voices.",
+      "published_date": "2018-08-15",
+      "source": "The New York Times",
+      "id": 100000006055899,
+      "asset_id": 100000006055899,
+      "views": 7,
+      "des_facet": [
+        "NEWS AND NEWS MEDIA"
+      ],
+      "org_facet": [
+        "FREEDOM OF THE PRESS",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": " ",
+          "copyright": " ",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/opinion\/editorials\/free-press-local-journalism-news-donald-trump-1534361459410\/free-press-local-journalism-news-donald-trump-1534361459410-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/14\/us\/carey-dean-moore-nebraska-execution-fentanyl.html",
+      "adx_keywords": "Capital Punishment;Nebraska;Moore, Carey Dean;Fentanyl",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By MITCH SMITH",
+      "type": "Article",
+      "title": "Fentanyl Used to Execute Nebraska Inmate, in a First for U.S.",
+      "abstract": "Nebraska has used fentanyl in its first execution since 1997, becoming the first state to kill a prisoner with the help of the powerful opioid.",
+      "published_date": "2018-08-14",
+      "source": "The New York Times",
+      "id": 100000006052234,
+      "asset_id": 100000006052234,
+      "views": 8,
+      "des_facet": [
+        "CAPITAL PUNISHMENT"
+      ],
+      "org_facet": [
+        "FENTANYL"
+      ],
+      "per_facet": [
+        "MOORE, CAREY DEAN"
+      ],
+      "geo_facet": [
+        "NEBRASKA"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Nebraska State Penitentiary in Lincoln, Neb., where Carey Dean Moore was executed on Tuesday.",
+          "copyright": "Luke Franke for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/00nebraska-01-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/00nebraska-01-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/00nebraska-01-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/merlin_142350846_b63293bb-a16a-49d9-9a0d-f721c6158e56-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/merlin_142350846_b63293bb-a16a-49d9-9a0d-f721c6158e56-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/merlin_142350846_b63293bb-a16a-49d9-9a0d-f721c6158e56-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/00nebraska-01-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/00nebraska-01-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/merlin_142350846_b63293bb-a16a-49d9-9a0d-f721c6158e56-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/15\/us\/15nebraska-1-print\/merlin_142350846_b63293bb-a16a-49d9-9a0d-f721c6158e56-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/interactive\/2018\/08\/11\/technology\/youtube-fake-view-sellers.html",
+      "adx_keywords": "YouTube.com;Frauds and Swindling;Social Media;Google Inc;Russian Interference in 2016 US Elections and Ties to Trump Associates;Black Markets;Devumi Inc;Public Relations and Publicity;Video Recordings, Downloads and Streaming",
+      "column": "",
+      "section": "Technology",
+      "byline": "By MICHAEL H. KELLER",
+      "type": "Interactive",
+      "title": "The Flourishing Business of Fake YouTube Views",
+      "abstract": "Plays can be bought for pennies and delivered in bulk, inflating videos\u2019 popularity and making the social media giant vulnerable to manipulation.",
+      "published_date": "2018-08-11",
+      "source": "The New York Times",
+      "id": 100000006039031,
+      "asset_id": 100000006039031,
+      "views": 9,
+      "des_facet": [
+        "FRAUDS AND SWINDLING",
+        "SOCIAL MEDIA",
+        "BLACK MARKETS",
+        "PUBLIC RELATIONS AND PUBLICITY",
+        "VIDEO RECORDINGS, DOWNLOADS AND STREAMING"
+      ],
+      "org_facet": [
+        "YOUTUBE.COM",
+        "GOOGLE INC",
+        "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+        "DEVUMI INC"
+      ],
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-square320.png",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-thumbStandard.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-articleInline.png",
+              "format": "Normal",
+              "height": 107,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-sfSpan.png",
+              "format": "Large",
+              "height": 264,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-jumbo.png",
+              "format": "Jumbo",
+              "height": 1024,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-superJumbo.png",
+              "format": "superJumbo",
+              "height": 758,
+              "width": 1346
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-square640.png",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-thumbLarge.png",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-mediumThreeByTwo210.gif",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/02\/technology\/00Youtube-Promo\/00Youtube-Promo-mediumThreeByTwo440.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/10\/us\/politics\/michael-avenatti-michelle-obama-trump.html",
+      "adx_keywords": "Avenatti, Michael;Obama, Michelle;Trump, Donald J;Democratic Party;Iowa;Presidential Election of 2020;Presidential Election of 2016",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By MAGGIE ASTOR",
+      "type": "Article",
+      "title": "Michael Avenatti Urges Democrats to Reject Michelle Obama\u2019s Advice on Trump",
+      "abstract": "Mrs. Obama said, \u201cWhen they go low, we go high.\u201d In his first speech as a prospective presidential candidate, Mr. Avenatti told Democrats to \u201cfight fire with fire\u201d instead.",
+      "published_date": "2018-08-10",
+      "source": "The New York Times",
+      "id": 100000006050906,
+      "asset_id": 100000006050906,
+      "views": 10,
+      "des_facet": [
+        "PRESIDENTIAL ELECTION OF 2020",
+        "PRESIDENTIAL ELECTION OF 2016"
+      ],
+      "org_facet": [
+        "DEMOCRATIC PARTY"
+      ],
+      "per_facet": [
+        "AVENATTI, MICHAEL",
+        "OBAMA, MICHELLE",
+        "TRUMP, DONALD J"
+      ],
+      "geo_facet": [
+        "IOWA"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Michael Avenatti gave his first speech as a prospective presidential candidate on Friday at the Wing Ding, a Democratic Party fund-raiser in Clear Lake, Iowa.",
+          "copyright": "Chris Zoeller\/Globe-Gazette, via Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1348,
+              "width": 2021
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/10\/us\/10-xp-Avenatti-wing-ding\/10-xp-Avenatti-wing-ding-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/16\/nyregion\/nyu-free-tuition-medical-school.html",
+      "adx_keywords": "Medical Schools;New York University School of Medicine;Tuition;Scholarships and Fellowships;Assn of American Medical Colleges;Langone, Kenneth G;Langone, Elaine;New York City",
+      "column": null,
+      "section": "New York",
+      "byline": "By DAVID W. CHEN",
+      "type": "Article",
+      "title": "Surprise Gift: Free Tuition for All N.Y.U. Medical Students",
+      "abstract": "A plan will cover the $55,000 annual tuition for every current and future New York University School of Medicine student, regardless of financial need.",
+      "published_date": "2018-08-16",
+      "source": "The New York Times",
+      "id": 100000006058404,
+      "asset_id": 100000006058404,
+      "views": 11,
+      "des_facet": [
+        "TUITION"
+      ],
+      "org_facet": [
+        "MEDICAL SCHOOLS",
+        "NEW YORK UNIVERSITY SCHOOL OF MEDICINE",
+        "SCHOLARSHIPS AND FELLOWSHIPS",
+        "ASSN OF AMERICAN MEDICAL COLLEGES"
+      ],
+      "per_facet": [
+        "LANGONE, KENNETH G",
+        "LANGONE, ELAINE"
+      ],
+      "geo_facet": [
+        "NEW YORK CITY"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New York University\u2019s School of Medicine announced on Thursday that it would cover tuition for all its current and future students. \u201cThis decision recognizes a moral imperative that must be addressed, as institutions place an increasing debt burden on young people who aspire to become physicians,\u201d the dean of the school said.",
+          "copyright": "Michael Kirby Smith for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/nyregion\/17tuition\/17tuition-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/11\/us\/seattle-plane-crash-stolen.html",
+      "adx_keywords": "Aviation Accidents, Safety and Disasters;Airlines and Airplanes;Alaska Airlines;Airport Security;Horizon Air;Seattle-Tacoma International Airport;Russell, Richard B (d 2018)",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By JACEY FORTIN and SARAH MERVOSH",
+      "type": "Article",
+      "title": "Stolen Plane Crashes After Airline Employee Takes Off From Seattle Airport",
+      "abstract": "Seattle-Tacoma International Airport said no passengers were on the 76-seat plane, which officials said was taken by an airline employee believed to be suicidal.",
+      "published_date": "2018-08-11",
+      "source": "The New York Times",
+      "id": 100000006050934,
+      "asset_id": 100000006050934,
+      "views": 12,
+      "des_facet": [
+        "AVIATION ACCIDENTS, SAFETY AND DISASTERS",
+        "AIRLINES AND AIRPLANES",
+        "AIRPORT SECURITY"
+      ],
+      "org_facet": [
+        "ALASKA AIRLINES",
+        "HORIZON AIR",
+        "SEATTLE-TACOMA INTERNATIONAL AIRPORT"
+      ],
+      "per_facet": [
+        "RUSSELL, RICHARD B (D 2018)"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The stolen Q400 Horizon Air plane was seen on videos diving, looping and rolling over Puget Sound at sunset before it crashed on Ketron Island. <a href=\"https:\/\/www.facebook.com\/jon.tornquist\/posts\/10212530580084953\"><br \/><\/a>",
+          "copyright": "John Waldron, via Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12xp-plane-jp1\/12xp-plane-sub-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/13\/us\/politics\/peter-strzok-fired-fbi.html",
+      "adx_keywords": "Strzok, Peter;Federal Bureau of Investigation;Russian Interference in 2016 US Elections and Ties to Trump Associates;Presidential Election of 2016;Text Messaging;Trump, Donald J;Page, Lisa (1979- );United States Politics and Government",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By ADAM GOLDMAN and MICHAEL S. SCHMIDT",
+      "type": "Article",
+      "title": "F.B.I. Agent Peter Strzok, Who Criticized Trump in Texts, Is Fired",
+      "abstract": "Mr. Strzok was one of the F.B.I.\u2019s top counterintelligence officials. But his disparaging texts about President Trump handed a weapon to conservatives assailing the Russia investigation.",
+      "published_date": "2018-08-13",
+      "source": "The New York Times",
+      "id": 100000006025014,
+      "asset_id": 100000006025014,
+      "views": 13,
+      "des_facet": [
+        "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "org_facet": [
+        "FEDERAL BUREAU OF INVESTIGATION",
+        "PRESIDENTIAL ELECTION OF 2016",
+        "TEXT MESSAGING"
+      ],
+      "per_facet": [
+        "STRZOK, PETER",
+        "TRUMP, DONALD J",
+        "PAGE, LISA (1979- )"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Peter Strzok, a top F.B.I. counterintelligence agent who was taken off the special counsel investigation after his disparaging texts about President Trump were uncovered, was fired.",
+          "copyright": "T.J. Kirkpatrick for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/14dc-strzok-print\/26dc-fbi-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/interactive\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections.html",
+      "adx_keywords": "",
+      "column": "",
+      "section": "U.S.",
+      "byline": "By SARAH ALMUKHTAR, MATTHEW BLOCH and JASMINE C. LEE",
+      "type": "Interactive",
+      "title": "Wisconsin Primary Election Results",
+      "abstract": "See full results and maps from the Wisconsin primaries.",
+      "published_date": "2018-08-14",
+      "source": "The New York Times",
+      "id": 100000006053445,
+      "asset_id": 100000006053445,
+      "views": 14,
+      "des_facet": "",
+      "org_facet": "",
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": null,
+          "copyright": null,
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-square320.png",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-thumbStandard.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-articleInline.png",
+              "format": "Normal",
+              "height": 106,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-sfSpan.png",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-jumbo.png",
+              "format": "Jumbo",
+              "height": 560,
+              "width": 1000
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-superJumbo.png",
+              "format": "superJumbo",
+              "height": 560,
+              "width": 1000
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-thumbLarge.png",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-mediumThreeByTwo210.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-wisconsin-primary-elections-1534195319320\/results-wisconsin-primary-elections-1534195319320-mediumThreeByTwo440.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/12\/world\/middleeast\/iraqi-spy-isis.html",
+      "adx_keywords": "Sudani, Harith al-;Islamic State in Iraq and Syria (ISIS);Espionage and Intelligence Services;Terrorism;Iraq",
+      "column": null,
+      "section": "World",
+      "byline": "By MARGARET COKER",
+      "type": "Article",
+      "title": "The Iraqi Spy Who Infiltrated ISIS",
+      "abstract": "The story of the mole who posed as a jihadist in the Islamic State, and the most important antiterrorism agency that most people have never heard of.",
+      "published_date": "2018-08-12",
+      "source": "The New York Times",
+      "id": 100000006020460,
+      "asset_id": 100000006020460,
+      "views": 15,
+      "des_facet": [
+        "TERRORISM"
+      ],
+      "org_facet": [
+        "ISLAMIC STATE IN IRAQ AND SYRIA (ISIS)",
+        "ESPIONAGE AND INTELLIGENCE SERVICES"
+      ],
+      "per_facet": [
+        "SUDANI, HARITH AL-"
+      ],
+      "geo_facet": [
+        "IRAQ"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Capt. Harith al-Sudani\u2019s wife, Raghad Chaloob, center, and their three children, Riyam, Rawan and Muamal, atop their home in Baghdad.",
+          "copyright": "Ivor Prickett for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/00iraq-spy1-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/00iraq-spy1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/merlin_141881331_32c0f4dd-26f2-4e5d-84af-0d9c0752b435-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/merlin_141881331_32c0f4dd-26f2-4e5d-84af-0d9c0752b435-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/merlin_141881331_32c0f4dd-26f2-4e5d-84af-0d9c0752b435-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/merlin_141881331_32c0f4dd-26f2-4e5d-84af-0d9c0752b435-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/00iraq-spy1-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/00iraq-spy1-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/merlin_141881331_32c0f4dd-26f2-4e5d-84af-0d9c0752b435-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12iraq-spy\/merlin_141881331_32c0f4dd-26f2-4e5d-84af-0d9c0752b435-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/11\/us\/seatac-stolen-plane-richard-b-russell.html",
+      "adx_keywords": "Russell, Richard B (d 2018);Aviation Accidents, Safety and Disasters;Seattle-Tacoma International Airport;Air Traffic Control;Alaska Air Group Inc;Horizon Air;Alaska Airlines",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By KIRK JOHNSON, JACEY FORTIN and CHRISTINA CARON",
+      "type": "Article",
+      "title": "Richard Russell, Who Stole Plane Near Seattle, Raises Troubling Security Questions",
+      "abstract": "Richard B. Russell, a ground service agent at Seattle-Tacoma International Airport, flew a turboprop aircraft for nearly an hour over Puget Sound.",
+      "published_date": "2018-08-11",
+      "source": "The New York Times",
+      "id": 100000006051238,
+      "asset_id": 100000006051238,
+      "views": 16,
+      "des_facet": [
+        "AVIATION ACCIDENTS, SAFETY AND DISASTERS",
+        "AIR TRAFFIC CONTROL"
+      ],
+      "org_facet": [
+        "SEATTLE-TACOMA INTERNATIONAL AIRPORT",
+        "ALASKA AIR GROUP INC",
+        "HORIZON AIR",
+        "ALASKA AIRLINES"
+      ],
+      "per_facet": [
+        "RUSSELL, RICHARD B (D 2018)"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Richard B. Russell, a ground service agent at Seattle-Tacoma International Airport. Mr. Russell stole a plane from the airport and flew it for about an hour before it crashed.",
+          "copyright": "via social media",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/12-xp-pilot-russell-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/12-xp-pilot-russell-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/merlin_142233552_741f28ca-da03-4263-aa47-2fd6d076b68c-articleInline.jpg",
+              "format": "Normal",
+              "height": 115,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/12-xp-pilot-russell-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/merlin_142233552_741f28ca-da03-4263-aa47-2fd6d076b68c-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 621,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/merlin_142233552_741f28ca-da03-4263-aa47-2fd6d076b68c-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1242,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/12-xp-pilot-russell-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/12-xp-pilot-russell-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/12-xp-pilot-russell-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/us\/12-xp-pilot-russell\/12-xp-pilot-russell-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/interactive\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections.html",
+      "adx_keywords": "",
+      "column": "",
+      "section": "U.S.",
+      "byline": "By SARAH ALMUKHTAR, MATTHEW BLOCH and JASMINE C. LEE",
+      "type": "Interactive",
+      "title": "Minnesota Primary Election Results",
+      "abstract": "See full results and maps from the Minnesota primaries.",
+      "published_date": "2018-08-14",
+      "source": "The New York Times",
+      "id": 100000006053450,
+      "asset_id": 100000006053450,
+      "views": 17,
+      "des_facet": "",
+      "org_facet": "",
+      "per_facet": "",
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": null,
+          "copyright": null,
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-square320.png",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-thumbStandard.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-articleInline.png",
+              "format": "Normal",
+              "height": 106,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-sfSpan.png",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-jumbo-v4.png",
+              "format": "Jumbo",
+              "height": 560,
+              "width": 1000
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-superJumbo-v4.png",
+              "format": "superJumbo",
+              "height": 560,
+              "width": 1000
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-thumbLarge.png",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-mediumThreeByTwo210.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/elections\/results-minnesota-primary-elections-1534195338402\/results-minnesota-primary-elections-1534195338402-mediumThreeByTwo440.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/12\/us\/politics\/omarosa-trump-tape.html",
+      "adx_keywords": "Manigault, Omarosa;Trump, Donald J;Kelly, John F (1950- );United States Politics and Government;Books and Literature;Unhinged: An Insider's Account of the Trump White House (Book);Audio Recordings, Downloads and Streaming",
+      "column": null,
+      "section": "U.S.",
+      "byline": "By MAGGIE HABERMAN",
+      "type": "Article",
+      "title": "Omarosa Manigault Newman Taped Her Firing by John Kelly",
+      "abstract": "The recording, played on \u201cMeet the Press,\u201d revealed the White House chief of staff suggesting that Ms. Manigault Newman could face damage to her reputation if she did not leave quietly.",
+      "published_date": "2018-08-12",
+      "source": "The New York Times",
+      "id": 100000006051774,
+      "asset_id": 100000006051774,
+      "views": 18,
+      "des_facet": [
+        "UNITED STATES POLITICS AND GOVERNMENT",
+        "AUDIO RECORDINGS, DOWNLOADS AND STREAMING"
+      ],
+      "org_facet": [
+        "BOOKS AND LITERATURE"
+      ],
+      "per_facet": [
+        "MANIGAULT, OMAROSA",
+        "TRUMP, DONALD J",
+        "KELLY, JOHN F (1950- )"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Omarosa Manigault Newman said that she had recorded conversations because &ldquo;this is a White House where everybody lies.&rdquo;",
+          "copyright": "Al Drago\/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-articleInline-v2.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-sfSpan-v2.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1366,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/14\/us\/politics\/13dc-omarosa\/13dc-omarosa-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/11\/world\/australia\/larrimah-mystery.html",
+      "adx_keywords": "Moriarty, Paddy (d 2017);Larrimah (Australia);Missing Persons;Murders, Attempted Murders and Homicides;Australia",
+      "column": null,
+      "section": "World",
+      "byline": "By JACQUELINE WILLIAMS",
+      "type": "Article",
+      "title": "In a Town of 11 People, Mysterious Disappearance Turns Neighbor Against Neighbor",
+      "abstract": "Rumors abound in a small town in the Australian outback. Was Paddy Moriarty fed to a pet crocodile? Or could he have been baked into a meat pie?",
+      "published_date": "2018-08-11",
+      "source": "The New York Times",
+      "id": 100000005958875,
+      "asset_id": 100000005958875,
+      "views": 19,
+      "des_facet": "",
+      "org_facet": [
+        "MISSING PERSONS",
+        "MURDERS, ATTEMPTED MURDERS AND HOMICIDES"
+      ],
+      "per_facet": [
+        "MORIARTY, PADDY (D 2017)"
+      ],
+      "geo_facet": [
+        "LARRIMAH (AUSTRALIA)",
+        "AUSTRALIA"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Eight months after he disappeared, a missing person sign remains outside the Larrimah, Australia, home of Paddy Moriarty.",
+          "copyright": "Adam Ferguson for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/03oz-larrimah-1-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/03oz-larrimah-1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/03oz-larrimah-1-articleInline.jpg",
+              "format": "Normal",
+              "height": 134,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/merlin_141870498_2122021b-3a1a-4acd-a416-e3d3155a1111-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/merlin_141870498_2122021b-3a1a-4acd-a416-e3d3155a1111-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 684,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/merlin_141870498_2122021b-3a1a-4acd-a416-e3d3155a1111-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1367,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/03oz-larrimah-1-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/03oz-larrimah-1-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/03oz-larrimah-1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/12\/world\/12oz-larrimah-1\/03oz-larrimah-1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/www.nytimes.com\/2018\/08\/17\/opinion\/cia-brennan-trump-letters.html",
+      "adx_keywords": "Trump, Donald J;Russian Interference in 2016 US Elections and Ties to Trump Associates;United States Defense and Military Forces;Classified Information and State Secrets;Defense Department;Central Intelligence Agency;Federal Bureau of Investigation;Brennan, John O;Gates, Robert M;McRaven, William H;United States Politics and Government",
+      "column": null,
+      "section": "Opinion",
+      "byline": "By TIM WEINER",
+      "type": "Article",
+      "title": "Trump Is Not a King",
+      "abstract": "A group of top former intelligence and military leaders are sending a message to the nation\u2019s troops and spies: think twice before following the president\u2019s orders in a crisis. ",
+      "published_date": "2018-08-17",
+      "source": "The New York Times",
+      "id": 100000006060675,
+      "asset_id": 100000006060675,
+      "views": 20,
+      "des_facet": [
+        "RUSSIAN INTERFERENCE IN 2016 US ELECTIONS AND TIES TO TRUMP ASSOCIATES",
+        "UNITED STATES DEFENSE AND MILITARY FORCES",
+        "CLASSIFIED INFORMATION AND STATE SECRETS"
+      ],
+      "org_facet": [
+        "DEFENSE DEPARTMENT",
+        "CENTRAL INTELLIGENCE AGENCY",
+        "FEDERAL BUREAU OF INVESTIGATION",
+        "UNITED STATES POLITICS AND GOVERNMENT"
+      ],
+      "per_facet": [
+        "TRUMP, DONALD J",
+        "BRENNAN, JOHN O",
+        "GATES, ROBERT M",
+        "MCRAVEN, WILLIAM H"
+      ],
+      "geo_facet": "",
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Donald Trump.",
+          "copyright": "Doug Mills\/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-square320.jpg",
+              "format": "square320",
+              "height": 320,
+              "width": 320
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-articleInline.jpg",
+              "format": "Normal",
+              "height": 127,
+              "width": 190
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-sfSpan.jpg",
+              "format": "Large",
+              "height": 263,
+              "width": 395
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-jumbo.jpg",
+              "format": "Jumbo",
+              "height": 683,
+              "width": 1024
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-superJumbo.jpg",
+              "format": "superJumbo",
+              "height": 1365,
+              "width": 2048
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-square640.jpg",
+              "format": "square640",
+              "height": 640,
+              "width": 640
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-thumbLarge.jpg",
+              "format": "Large Thumbnail",
+              "height": 150,
+              "width": 150
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https:\/\/static01.nyt.com\/images\/2018\/08\/17\/opinion\/17Weiner1\/17Weiner1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

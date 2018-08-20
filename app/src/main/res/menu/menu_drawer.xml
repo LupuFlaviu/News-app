@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_1_day"
+            android:title="@string/option_1_day" />
+        <item
+            android:id="@+id/action_7_days"
+            android:title="@string/option_7_days" />
+        <item
+            android:id="@+id/action_30_days"
+            android:title="@string/option_30_days" />
+    </group>
+</menu>
