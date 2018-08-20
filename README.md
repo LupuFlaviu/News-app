@@ -29,9 +29,9 @@ You should have a device connected or an emulator running before running the scr
   * For Windows: Run `testCoverage.bat` (run it from a command prompt if you don't want the terminal to close when finished)
   * For Linux: Run `./gradlew fullCoverageReport`
 
-  The instrumented test reports can be found in app\build\reports\androidTests\connected\.
-  The unit test reports can be found in $module\build\reports\tests.
-  The code coverage reports can be found in \build\reports\javacoco.
+  * The instrumented test reports can be found in app\build\reports\androidTests\connected\.
+  * The unit test reports can be found in $module\build\reports\tests.
+  * The code coverage reports can be found in \build\reports\javacoco.
 
 * Run lint checks
   * For Windows: Run `lint.bat` (run it from a command prompt if you don't want the terminal to close when finished)
