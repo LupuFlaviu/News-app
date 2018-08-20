@@ -63,10 +63,10 @@ public class NewsListFragment extends Fragment implements NewsListAdapter.OnSele
                     if (articles != null) {
                         if (articles.data != null) {
                             mAdapter = new NewsListAdapter(articles.data.getArticleList(), this);
+                            mBinding.recyclerView.setAdapter(mAdapter);
+                            mBinding.progressBar.setVisibility(View.GONE);
                         }
                     }
-                    mBinding.recyclerView.setAdapter(mAdapter);
-                    mBinding.progressBar.setVisibility(View.GONE);
                 });
                 mViewModel.getErrorMessage().observe(this, errorMessage ->
                         Toast.makeText(getActivity(), errorMessage, LENGTH_SHORT).show()

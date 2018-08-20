@@ -1,13 +1,16 @@
 package com.android.example.news.ui;
 
+import android.app.Activity;
 import android.app.Instrumentation;
 import android.arch.lifecycle.MutableLiveData;
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.test.rule.ActivityTestRule;
+import android.support.test.espresso.contrib.RecyclerViewActions;
+import android.support.test.espresso.intent.rule.IntentsTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
 import com.android.example.news.R;
+import com.android.example.news.api.model.Article;
 import com.android.example.news.api.model.NewsResponse;
 import com.android.example.news.testing.SingleFragmentActivity;
 import com.android.example.news.util.EspressoTestUtil;
@@ -19,14 +22,12 @@ import com.android.example.news.vo.Resource;
 
 import org.hamcrest.Matcher;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.assertion.ViewAssertions.doesNotExist;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.intent.Intents.intended;
 import static android.support.test.espresso.intent.Intents.intending;
@@ -40,15 +41,15 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.Matchers.allOf;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 @RunWith(AndroidJUnit4.class)
-@Ignore
 public class NewsFragmentTest {
     @Rule
-    public ActivityTestRule<SingleFragmentActivity> mActivityRule =
-            new ActivityTestRule<>(SingleFragmentActivity.class, true, true);
+    public IntentsTestRule<SingleFragmentActivity> mActivityRule =
+            new IntentsTestRule<>(SingleFragmentActivity.class, true, true);
     @Rule
     public TaskExecutorWithIdlingResourceRule mExecutorRule =
             new TaskExecutorWithIdlingResourceRule();
@@ -56,6 +57,7 @@ public class NewsFragmentTest {
     private MutableLiveData<String> mErrorMessage = new MutableLiveData<>();
     private NewsListFragment mNewsListFragment;
     private NewsViewModel mViewModel;
+    private Article mArticle;
     private final String ARTICLE_TITLE = "Elon Musk Details ‘Excruciating’ Personal Toll of Tesla Turmoil";
 
 
@@ -64,8 +66,10 @@ public class NewsFragmentTest {
         EspressoTestUtil.disableProgressBarAnimations(mActivityRule);
         mNewsListFragment = NewsListFragment.create();
         mViewModel = mock(NewsViewModel.class);
+        mArticle = mock(Article.class);
         when(mViewModel.getArticleList()).thenReturn(mArticleList);
         when(mViewModel.getErrorMessage()).thenReturn(mErrorMessage);
+        when(mArticle.getUrl()).thenReturn("http://www.nytimes.com");
 
         mNewsListFragment.mViewModelFactory = ViewModelUtil.createFor(mViewModel);
         mActivityRule.getActivity().setFragment(mNewsListFragment);
@@ -96,7 +100,7 @@ public class NewsFragmentTest {
     @Test
     public void testError() {
         mArticleList.postValue(Resource.error("Error", null));
-        onView(withId(R.id.progressBar)).check(matches(not(isDisplayed())));
+        onView(withId(R.id.progressBar)).check(matches(isDisplayed()));
         onView(withText(R.string.internet_connection_error)).inRoot(withDecorView(not(mActivityRule.getActivity().getWindow().getDecorView()))).check(matches(isDisplayed()));
         mArticleList.postValue(Resource.loading(null));
 
@@ -129,16 +133,17 @@ public class NewsFragmentTest {
     @Test
     public void testArticleClick() {
         setArticles("a", "b", "c");
-        Matcher<Intent> expectedIntent = allOf(hasAction(Intent.ACTION_VIEW), hasData(hasHost("www.nytimes.com")));
-        intending(expectedIntent).respondWith(new Instrumentation.ActivityResult(0, null));
-        onView(withText("c")).perform(click());
+        Matcher<Intent> expectedIntent = allOf(hasAction(Intent.ACTION_VIEW), hasData(hasHost("http://www.nytimes.com")));
+        intending(expectedIntent).respondWith(new Instrumentation.ActivityResult(Activity.RESULT_OK, null));
+        onView(withId(R.id.recycler_view)).check(matches(isDisplayed()));
+        onView(withId(R.id.recycler_view)).perform(RecyclerViewActions.actionOnItemAtPosition(0, click()));
         intended(expectedIntent);
     }
 
     @Test
     public void testEmptyList() {
         this.mArticleList.postValue(null);
-        onView(withId(R.id.text_title)).check(matches(not(isDisplayed())));
+        onView(withId(R.id.recycler_view)).check(matches(not(hasDescendant(withText(anyString())))));
     }
 
     @Test
@@ -146,7 +151,7 @@ public class NewsFragmentTest {
         setArticles("a", "b", "c");
         onView(listMatcher().atPosition(0)).check(matches(hasDescendant(withText("a"))));
         mArticleList.postValue(null);
-        onView(listMatcher().atPosition(0)).check(doesNotExist());
+        onView(withId(R.id.recycler_view)).check(matches(not(hasDescendant(withText(anyString())))));
     }
 
     private void setArticles(String... titles) {

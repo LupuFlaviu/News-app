@@ -31,7 +31,7 @@ import static com.android.example.news.vo.Status.SUCCESS;
 public class Resource<T> {
 
     @NonNull
-    private final Status status;
+    public final Status status;
 
     @Nullable
     public final String message;

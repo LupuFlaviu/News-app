@@ -42,6 +42,7 @@ android {
 jacoco {
     toolVersion = "0.8.1"
     reportsDir = file("$buildDir/customJacocoReportDir")
+
 }
 
 ext {
@@ -111,6 +112,7 @@ dependencies {
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-intents:$espressoVersion"
     androidTestImplementation "com.android.support.test:rules:$testSupportVersion"
+    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$espressoVersion"
 
     // Mockito
     androidTestImplementation 'org.mockito:mockito-android:2.8.47'
@@ -119,7 +121,7 @@ dependencies {
     androidTestImplementation "android.arch.core:core-testing:$archVersion"
 
     task cleanInstallDebug(type: GradleBuild) {
-        tasks = ['clean', 'assembleDebug' , 'installDebug']
+        tasks = ['clean', 'assembleDebug', 'installDebug']
     }
 
     task checkLint(type: GradleBuild) {
@@ -136,7 +138,6 @@ dependencies {
                 destination file("$project.rootDir/build/reports/javacoco/$project.name")
             }
         }
-
         def fileFilter = ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*',
                           '**/*Test*.*', 'android/**/*.*',
                           '**/*_MembersInjector.class',
@@ -144,7 +145,12 @@ dependencies {
                           '**/Dagger*Component$Builder.class',
                           '**/*_*Factory.class',
                           '**/*ComponentImpl.class',
-                          '**/*SubComponentBuilder.class']
+                          '**/*SubComponentBuilder.class',
+                          '**/*Binding.class',
+                          'com/android/example/news/di/**',
+                          'com/android/example/news/testing/**',
+                          'com/android/example/news/viewmodel/**',
+                          'com/android/databinding/library/baseAdapters/**']
         def debugTree = fileTree(dir: "${buildDir}/intermediates/classes/debug", excludes: fileFilter)
         def mainSrc = "${project.projectDir}/src/main/java"
 
