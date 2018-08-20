@@ -10,6 +10,7 @@ import com.android.example.news.api.model.NewsResponse;
 import com.android.example.news.repo.NewsRepository;
 import com.android.example.news.utils.AbsentLiveData;
 import com.android.example.news.utils.Constants;
+import com.android.example.news.utils.Objects;
 import com.android.example.news.vo.Resource;
 
 import javax.inject.Inject;
@@ -18,7 +19,8 @@ public class NewsViewModel extends ViewModel {
 
     private final NewsRepository mRepo;
     private LiveData<Resource<NewsResponse>> mArticleList;
-    private MutableLiveData<Integer> mPeriod = new MutableLiveData<>();
+    @VisibleForTesting
+    MutableLiveData<Integer> mPeriod = new MutableLiveData<>();
 
     @Inject
     public NewsViewModel(NewsRepository newsRepository) {
@@ -35,6 +37,14 @@ public class NewsViewModel extends ViewModel {
                 return mRepo.getArticleList(period);
             }
         });
+    }
+
+    @VisibleForTesting
+    public void setPeriod(Integer period) {
+        if (Objects.equals(this.mPeriod.getValue(), period)) {
+            return;
+        }
+        this.mPeriod.setValue(period);
     }
 
     @VisibleForTesting
