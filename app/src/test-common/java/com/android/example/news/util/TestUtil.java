@@ -26,16 +26,16 @@ import java.util.List;
 
 public class TestUtil {
 
-    public static List<Article> createArticleList(String... titles) {
+    public static List<Article> createArticleList(String url, String... titles) {
         List<Article> articleList = new ArrayList<>();
         for (String title : titles) {
-            articleList.add(new Article(title, createMediaList()));
+            articleList.add(new Article(url, title, createMediaList()));
         }
         return articleList;
     }
 
-    public static NewsResponse createNewsResponse(String... titles) {
-        return new NewsResponse(createArticleList(titles));
+    public static NewsResponse createNewsResponse(String url, String... titles) {
+        return new NewsResponse(createArticleList(url, titles));
     }
 
     public static List<Media> createMediaList() {
